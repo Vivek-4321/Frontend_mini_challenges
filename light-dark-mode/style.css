@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --background-color: #ffffff; /* Light theme background color */
+    --text-color: #000000; /* Light theme text color */
+}
+
+.dark-theme {
+    --background-color: #1a1a1a; /* Dark theme background color */
+    --text-color: #ffffff; /* Dark theme text color */
+}
+
+body {
+    margin-top: 15rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.5s, color 0.5s; /* Smooth transition */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-left:-2rem;
+}
+
+p{
+    margin: 1rem 0rem;
+    width: 23rem;
+}
+
+button{
+    width: 6rem;
+    height: 2rem;
+    border:none;
+    border-radius: 1rem;
+    background-color: var(--text-color);
+    color: var(--background-color);
+}

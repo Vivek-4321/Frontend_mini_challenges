@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The number</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Guess the number</h1>
+        <p>Enter a guess between 0 to 100</p>
+        <input type="number" placeholder="Enter a number">
+        <div class="button-group">
+            <button class="disabled" onClick="handleSubmit()" disabled>Submit</button>
+            <button onClick="handleStart()">Start Game</button>
+        </div>
+        <p class="hint"></p>
+        <div class="bottom-group">
+            <div class="your-input"></div>
+            <div class="chances">
+                
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
